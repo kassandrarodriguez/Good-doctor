@@ -10,6 +10,8 @@ import Doctors from './components/Doctors';
 import About from './components/About';
 import Buttons from './components/Buttons';
 import {BrowserRouter, Route} from "react-router-dom"
+import Services from './Services';
+
 
 
 // import registerServiceWorker from './registerServiceWorker';
@@ -25,7 +27,8 @@ const Root=()=>{
       <Route exact path = '/about' component={About}/>
       </div>
     </BrowserRouter>
-  </nav>
+    <Services />
+ </nav>
   )
 
 }
