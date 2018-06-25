@@ -10,14 +10,14 @@ class Form extends React.Component {
   // }
   render() {
     return (
-      <form action="" className="weather-form" onSubmit={ (e) => this.getWeather(e) }>
-        <h1 className="form-title">Find your local weather!</h1>
+      <form action="" className="form" onSubmit={ (e) => this.getWeather(e) }>
+        <h1 className="form-title">Find your local Doctor!</h1>
         <div>
-          <label htmlFor="city">Enter city, state:</label>
-          <input type="text" id="city" name="city" placeholder="ex: Miami, FL" ref={ (input) => this.weatherFormInput = input } />
+          <label htmlFor="city">Enter Insurance:</label>
+          <input type="text" id="city" name="city" placeholder="ex: 33024" ref={ (input) => this.weatherFormInput = input } />
         </div>
         <footer>
-          <input type="submit" value="Find my weather!" />
+          <input type="submit" value="Find my Doctor!" />
         </footer>
       </form>
     )
