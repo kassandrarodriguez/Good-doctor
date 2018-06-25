@@ -8,7 +8,7 @@ class Doctors extends Component {
 
       <div id="Doctors">
           <Doctor />
-        <p>hello</p>
+        <p></p>
       </div>
     );
   }
