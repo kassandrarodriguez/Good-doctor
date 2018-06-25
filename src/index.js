@@ -12,7 +12,10 @@ import Buttons from './components/Buttons';
 import {BrowserRouter, Route} from "react-router-dom"
 import Services from './Services';
 
+// import Form from './components/Form';
 
+
+// <Route exact path="/" component={ Form } />
 
 // import registerServiceWorker from './registerServiceWorker';
 
