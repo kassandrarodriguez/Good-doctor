@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Search from "./Search";
 import HomeContent from "./HomeContent";
 import '../CSS/HomeContent.css';
+import "../Images/GOODr_Logo.png";
 
 
 export default class Home extends Component {
@@ -17,8 +18,10 @@ export default class Home extends Component {
     // //   );
     // }
     return(
+
       <HomeContent />
-  
+
+
     )
   }
 }

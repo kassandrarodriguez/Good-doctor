@@ -1,9 +1,11 @@
-import React from "react";
+import React, { Component } from "react";
 import '../CSS/HomeContent.css';
+import "../Images/GOODr_Logo.png";
+import Search from "./Search";
 
-
-export default function HomeContent() {
-  return(
+export default class HomeContent extends Component {
+    render(){
+      return(
     <div className="hero-inner">
       <h1>Get as Good as it Gets!</h1>
       <p>
@@ -14,6 +16,8 @@ export default function HomeContent() {
         src="../Images/GOODr_Logo.png"
         alt="Pediatrician and Child"
       />
+    <Search />
     </div>
   );
+}
 }
