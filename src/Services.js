@@ -70,14 +70,12 @@ console.log(doctors);
 
 
 
-
-
    render() {
 
-
+this.fetchData()
 
 return(
-<Doctors props={this.fetchData()} />
+<Doctors  />
 
 )
 

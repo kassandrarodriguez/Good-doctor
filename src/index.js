@@ -24,9 +24,9 @@ const Root=()=>{
   <nav>
     <BrowserRouter>
       <div>
-      <Route path ='/' component={Home}/>
-      <Route exact path ='/doctors' component={Services}/>
+      <Route exact path ='/' component={Home}/>
       <Route exact path = '/about' component={About}/>
+      <Route exact path ='/doctors' component={Services}/>
       </div>
     </BrowserRouter>
  </nav>
