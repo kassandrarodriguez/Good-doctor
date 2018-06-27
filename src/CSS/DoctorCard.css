@@ -5,7 +5,9 @@ padding-left: 45em;
 margin-bottom: 2em;
 }
 
+
 .container {
+
   display: flex;
   margin-left: 20%;
   margin-bottom: 1%;
@@ -13,8 +15,10 @@ margin-bottom: 2em;
   height: 18em;
   border: none;
 }
+
   
 .stars {
   height: 1em;
   width: 5em;
 }
+

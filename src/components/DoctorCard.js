@@ -2,17 +2,16 @@ import React from 'react'
 import { Rating } from 'semantic-ui-react'
 import { Button, Card, Image } from 'semantic-ui-react'
 import '../CSS/DoctorCard.css';
+import Doctor from './Doctor';
 
 
 const DoctorCard = (props) => (
 
-  <div className="container">
-    <a class="ui fluid card" href="http://www.dog.com">
-    
-      <div class="content">
 
+<div className="container">
+  <a class="ui fluid card" href="./Doctor">
+    <div class="content">
         <div class="header">{props.lastName}, {props.firstName}</div>
-        
         <div class="rating">
         <img className="stars" src={require('../Images/star rating.png')} alt="five star rating"/>         
         </div>
@@ -20,7 +19,6 @@ const DoctorCard = (props) => (
         <div class="meta">
           <span class="category">Gender- {props.gender}</span>
         </div>
-
         <div class="description">
           <p>{props.bio}</p>
         </div>
