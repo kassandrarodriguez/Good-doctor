@@ -1,20 +1,20 @@
 
 .ui.cards {
-
 padding-right: 45em;
 padding-left: 45em;
-
+margin-bottom: 2em;
 }
 
-<<<<<<< HEAD
-.container{
-  margin-top: 5em;
+.container {
   display: flex;
-  justify-content: center;
-  margin-left: 10em;
-  width: 40em;
-  height: 15em;
-  border: 1px solid blue
+  margin-left: 20%;
+  margin-bottom: 1%;
+  width: 60%;
+  height: 18em;
+  border: none;
 }
-=======
->>>>>>> e16933ce688da7198a62c4663126bfe537bbd899
+  
+.stars {
+  height: 1em;
+  width: 5em;
+}
