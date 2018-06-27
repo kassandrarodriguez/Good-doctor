@@ -1,8 +1,3 @@
-  body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-  }
 
 .hero-inner {
     width: 100vw;
@@ -19,17 +14,24 @@
     font-weight: 800;
 }
 
-.hero-inner h1 {
-    font-size: 4em;
-    margin-top: 4em;
-    margin-bottom: 0em;
-    color: #F7f7ff;
+.hero-inner-text {
+    margin-top: 17em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.hero-inner p {
+.hero-inner-text  h1 {
+    font-size: 4em;
+    color: #F7f7ff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-inner-text  p {
     font-size: 2em;
     font-weight: bold;
     color: #2d75c6;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .hero-inner .logo {
@@ -43,7 +45,7 @@
 
 
 
-.input {
+/* .input {
     position: absolute;
     bottom:0;
     width: 45%;
@@ -72,5 +74,5 @@ input[type=button], input[type=submit] {
     margin: 2px 1px;
     cursor: pointer;
     font-size: 1em;
-    font-family: 'Montserrat Bold', sans-serif;
-}
+    font-family: 'Montserrat Bold', sans-serif; */
+/* } */

@@ -42,16 +42,16 @@ console.log(doctors);
 
 
   render() {
-    if (this.state.doctors.length > 0) {
-      return <DoctorList doctors={this.state.doctors}/>;
-    } else {
-      console.log(this.state.doctors);
-      return (
-        <section>
-        <HomeContent  />
-        </section>
-)
-    }
-// return(<HomeContent />)
+//     if (this.state.doctors.length > 0) {
+//       return <DoctorList doctors={this.state.doctors}/>;
+//     } else {
+//       console.log(this.state.doctors);
+//       return (
+//         <section>
+//         <HomeContent  />
+//         </section>
+// )
+//     }
+return(<HomeContent />)
   }
 }

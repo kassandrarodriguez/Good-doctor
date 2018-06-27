@@ -1,0 +1,21 @@
+
+#Card.Group {
+    margin-left: 4 em;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+
+.Card {
+    margin-left: 4 em;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+
+#Card.Content {
+    margin-left: 4 em;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+}
