@@ -16,7 +16,8 @@ export default class HomeContent extends Component {
         src="../Images/GOODr_Logo.png"
         alt="Pediatrician and Child"
       />
-    <Search />
+       <Search fetchData={this.props.fetchData} />
+
     </div>
   );
 }
