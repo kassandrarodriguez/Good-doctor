@@ -26,15 +26,16 @@ export default class Home extends Component {
       api_key;
 
 		let data = await axios.get(url).catch(err => console.log(err));
-
-    return data.data.data
+    this.setState({
+      doctors: data.data.data
+    })
   }
 
 async componentDidMount(){
-  let doctors = await this.fetchData();
-  this.setState({doctors});
-console.log(doctors);
-
+//   let doctors = await this.fetchData();
+//   this.setState({doctors});
+// console.log(doctors);
+// <DoctorList doctors={this.state.doctors}/>;
 }
 
 
@@ -42,16 +43,18 @@ console.log(doctors);
 
 
   render() {
-//     if (this.state.doctors.length > 0) {
-//       return <DoctorList doctors={this.state.doctors}/>;
-//     } else {
-//       console.log(this.state.doctors);
-//       return (
-//         <section>
-//         <HomeContent  />
-//         </section>
-// )
-//     }
-return(<HomeContent />)
+
+    if (this.state.doctors.length > 0) {
+      return <DoctorList doctors={this.state.doctors}/>;
+    } else {
+      return (
+        <section>
+        <HomeContent fetchData={this.fetchData} />
+        </section>
+)
+    }
+// return(<HomeContent />)
+
+
   }
 }
