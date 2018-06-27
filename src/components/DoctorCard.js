@@ -1,13 +1,15 @@
 import React from 'react'
 import { Button, Card, Image } from 'semantic-ui-react'
+import '../CSS/DoctorCard.css';
+
 
 const DoctorCard = (props) => (
 
   <Card.Group>
-    <Card>
+    <Card fluid>
       <Card.Content>
         <Image floated='right'  src={props.picture} />
-        <Card.Header>{ props.firstName}</Card.Header>
+        <Card.Header>{ props.lastName}, {props.firstName}</Card.Header>
         <Card.Meta>Gender -{props.gender}</Card.Meta>
         <Card.Description>
         {props.bio}
@@ -19,6 +21,8 @@ const DoctorCard = (props) => (
     </Card>
 
   </Card.Group>
+
+
 )
 
 export default DoctorCard

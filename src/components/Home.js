@@ -34,7 +34,7 @@ async componentDidMount(){
   let doctors = await this.fetchData();
   this.setState({doctors});
 console.log(doctors);
-
+// <DoctorList doctors={this.state.doctors}/>;
 }
 
 
@@ -53,5 +53,6 @@ console.log(doctors);
 )
     }
 // return(<HomeContent />)
+
   }
 }
