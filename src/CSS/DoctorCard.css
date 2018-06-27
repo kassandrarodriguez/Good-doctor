@@ -1,3 +1,4 @@
+
 .ui.cards {
 
 padding-right: 45em;
@@ -5,6 +6,7 @@ padding-left: 45em;
 
 }
 
+<<<<<<< HEAD
 .container{
   margin-top: 5em;
   display: flex;
@@ -14,3 +16,5 @@ padding-left: 45em;
   height: 15em;
   border: 1px solid blue
 }
+=======
+>>>>>>> e16933ce688da7198a62c4663126bfe537bbd899
