@@ -10,17 +10,15 @@ class DoctorList extends Component {
 
 
   render() {
-    let doctorCardList = this.props.doctors.map(element =>{
+    let doctorCardList = this.props.doctors.map((element, index) =>{
       let info = element.profile;
-      return <DoctorCard firstName={info.first_name} lastName={info.last_name} gender={info.gender} bio ={info.bio}
+      return <DoctorCard firstName={info.first_name} key={`id:${index}`} lastName={info.last_name} gender={info.gender} bio ={info.bio}
         picture={info.image_url}/>
     });
     console.log(doctorCardList);
     return (
-
       <div id="Doctors">
           // {doctorCardList}
-
       </div>
     );
   }

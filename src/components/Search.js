@@ -4,9 +4,9 @@ import { Action } from "semantic-ui-react";
 
 export default function Search(props) {
   return (
-    <div class="ui action input">
+    <div className="ui action input">
     <input type="text" placeholder="Provide Insurance Provider..."/>
-    <button class="ui button" name="submit" value="SEARCH" onClick={props.fetchData}>Search</button>
+    <button className="ui button" name="submit" value="SEARCH" onClick={props.fetchData}>Search</button>
   </div>
 )
   //
