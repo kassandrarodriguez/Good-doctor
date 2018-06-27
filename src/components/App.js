@@ -3,7 +3,8 @@ import Header from "./Header";
 import { Route } from "react-router-dom";
 import Home from "./Home";
 import '../CSS/HomeContent.css';
-
+import About from "./About";
+import Doctor from "./Doctor";
 
 export default class App extends Component {
 
@@ -12,10 +13,12 @@ export default class App extends Component {
       <div>
         <Header />
 				<Route exact path="/" component={Home} />
-        {/* <Route path="/about" component={About} />
-		<Route path="/contact" component={Contact} />
-		<Footer /> */}
+         <Route path="/about" component={About} />
+         <Route path ="/doctor" component={Doctor}/>
+
       </div>
     );
   }
 }
+// <Route path="/contact" component={Contact} />
+// <Footer />

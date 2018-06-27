@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../CSS/Doctors.css';
+import '../CSS/DoctorList.css';
 import DoctorCard from './DoctorCard';
 import Home from './Home';
 
