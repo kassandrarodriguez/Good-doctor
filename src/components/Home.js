@@ -6,6 +6,11 @@ import DoctorList from "./DoctorList"
 import axios from "axios";
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> f7a03082a1883c5a9d1b04b62250340144b4fa4c
 export default class Home extends Component {
   constructor() {
     super();

@@ -38,7 +38,6 @@ constructor() {
     return (
       <div>
 
-
         <div className="title">
           <h1>Based on Your Insurance, <br /> Here are the Highest Rated Pediatricians in Miami. </h1>
         </div>
@@ -52,9 +51,6 @@ constructor() {
               </select>
             </div>
         </div>
-
-
-
         <div className="directory">
           <div className="Doctor" id="Doctors">
             {doctorCardList}
