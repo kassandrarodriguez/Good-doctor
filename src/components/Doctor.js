@@ -41,7 +41,7 @@ export default class Doctor extends Component {
             <h5>1&emsp;Board Certifications</h5>
             <ul>
               <li>Pediatrics</li>
-              <li> Accredited by: American Board of Pediatrics </li>
+              <li>Accredited by: American Board of Pediatrics </li>
             </ul>
           </div>
 

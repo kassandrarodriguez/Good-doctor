@@ -1,11 +1,16 @@
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 import React, { Component } from "react";
+import API_KEY from './config'
 
 
+
+const API_K = API_KEY
 export class SimpleMap extends Component {
+
   render() {
     return (
-      <Map google={this.props.google} zoom={14}>
+
+      <Map google={this.props.google} zoom={14} initialCenter={{lat: 25.7617 , lng: -80.1918}}>
 
         <Marker onClick={this.onMarkerClick}
                 name={'Current location'} />
@@ -21,5 +26,5 @@ export class SimpleMap extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyCNXDL-ug6d-uEGCHCUDrSAJRj6D-BdCWY"
+  apiKey: API_K
 })(SimpleMap)

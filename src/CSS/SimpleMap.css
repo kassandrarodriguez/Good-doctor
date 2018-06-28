@@ -1,5 +1,5 @@
-#google-map {
-  width: 100%;
-  height: 400px;
+#SimpleMap {
+  width: 90%;
+  height: 500px;
   background-color: grey;
 }
