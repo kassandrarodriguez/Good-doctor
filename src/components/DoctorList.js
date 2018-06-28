@@ -3,6 +3,8 @@ import '../CSS/DoctorList.css';
 import DoctorCard from './DoctorCard';
 import { Selection } from "semantic-ui-react";
 import map from "../Images/map.jpg";
+import SimpleMap from "./SimpleMap";
+import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 
 
 
@@ -51,7 +53,7 @@ if(info.gender==this.genders[this.state.gender] || this.state.gender==2){
   <option value="2">Both</option>
 </select>
 
-        <h1>Based on your Insurance</h1>
+        <h1 class="Title">Based on your Insurance</h1>
         <h1>Here are the Best Pediatricians in Miami:</h1>
         <div className="directory">
           <div className="Doctor" id="Doctors">
@@ -59,6 +61,7 @@ if(info.gender==this.genders[this.state.gender] || this.state.gender==2){
           </div>
 
         </div>
+          <SimpleMap />
       </div>
 
 

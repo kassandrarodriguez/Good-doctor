@@ -1,5 +1,5 @@
 .title > h1 {
-  padding: 1em;
+  padding-left: 10em;
   color: #2d75c6;
   font-family: 'Montserrat', sans-serif;
   text-align: center
@@ -19,4 +19,3 @@
   height: 45%;
   margin-right: 2em;
 }
-
