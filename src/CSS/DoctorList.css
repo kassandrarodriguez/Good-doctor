@@ -4,14 +4,23 @@
   font-family: 'Montserrat', sans-serif;
   text-align: center
 }
+.subtitle > p {
+  text-align: center;
+  display: inline;
+  color: #2d75c6;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 4em;
+}
+
+.dropDown {
+  margin-left: .5em;
+  display: inline;
+}
 
 .directory {
   background: linear-gradient(#6cc5bd, #de7bad);
   display: flex;
   padding: 50px 25px;
-}
-.img {
-  padding: 10em;
 }
 
 .map {
@@ -20,15 +29,3 @@
   margin-right: 2em;
 }
 
-.dropDown {
-  margin-left: .5em;
-  display: inline;
-}
-
-.subtitle > p {
-  text-align: center;
-  display: inline;
-  color: #2d75c6;
-  font-family: 'Montserrat', sans-serif;
-  margin-left: 4em;
-}
