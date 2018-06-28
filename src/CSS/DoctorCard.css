@@ -1,19 +1,17 @@
 
-.ui.cards {
-
-margin-bottom: 2em;
-
-}
-
+/* .ui.cards {
+margin-bottom: 10em;
+} */
 
 .container {
-
   display: flex;
-  margin-bottom: 1%;
-  height: 18em;
+  height: 20em;
+  width: 34em;
   border: none;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
 }
-
 
 .stars {
   height: 1em;

@@ -64,10 +64,12 @@ class DoctorList extends Component {
     console.log(doctorCardList);
     return (
       <div>
-
-      <h1>Based on your Insurance, Here are the Best Pediatrician in Miami: </h1>
+        <div className="title">
+          <h1>Based on Your Insurance, Here are the Highest Rated Pediatricians in Miami: </h1>
+        </div>
+        
       <div className="directory">
-    <div className="Doctor" id="Doctors">
+        <div className="Doctor" id="Doctors">
           {doctorCardList}
       </div>
 
