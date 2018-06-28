@@ -20,3 +20,15 @@
   margin-right: 2em;
 }
 
+.dropDown {
+  margin-left: .5em;
+  display: inline;
+}
+
+.subtitle > p {
+  text-align: center;
+  display: inline;
+  color: #2d75c6;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 4em;
+}

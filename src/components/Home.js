@@ -5,8 +5,6 @@ import "../Images/GOODr_Logo.png";
 import DoctorList from "./DoctorList"
 import axios from "axios";
 
-
-
 export default class Home extends Component {
   constructor() {
     super();
@@ -37,10 +35,6 @@ async componentDidMount(){
 // <DoctorList doctors={this.state.doctors}/>;
 }
 
-
-
-
-
   render() {
 
     if (this.state.doctors.length > 0) {
@@ -50,10 +44,8 @@ async componentDidMount(){
         <section>
         <HomeContent fetchData={this.fetchData} />
         </section>
-)
+      )
     }
 // return(<HomeContent />)
-
-
   }
 }

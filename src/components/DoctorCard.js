@@ -4,9 +4,7 @@ import { Button, Card, Image } from 'semantic-ui-react'
 import '../CSS/DoctorCard.css';
 import Doctor from './Doctor';
 
-
 const DoctorCard = (props) => (
-
 
 <div className="container">
   <a class="ui fluid card" href="./Doctor">
