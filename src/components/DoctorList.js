@@ -4,14 +4,6 @@ import DoctorCard from './DoctorCard';
 import { Selection } from "semantic-ui-react";
 import map from "../Images/map.jpg";
 
-<<<<<<< HEAD
-=======
-
-
-
-
-
->>>>>>> b3a23f424a1358a604e4fe9671025a9c9819024d
 class DoctorList extends Component {
 
  genderChange(event){
@@ -45,8 +37,8 @@ constructor() {
 
     return (
       <div>
-<<<<<<< HEAD
-       
+
+
         <div className="title">
           <h1>Based on Your Insurance, <br /> Here are the Highest Rated Pediatricians in Miami. </h1>
         </div>
@@ -54,32 +46,22 @@ constructor() {
           <p> Select your gender preference. >> </p>
             <div className="dropDown">
               <select className="ui dropdown" onChange={this.genderChange.bind(this)}>
-                <option value="0">Male</option>
+                <option value="2">No preference</option>
                 <option value="1">Female</option>
-                <option value="2">Both</option>
+                <option value="0">Male</option>
               </select>
             </div>
         </div>
-=======
 
-        <select className="ui dropdown" onChange={this.genderChange.bind(this)}>
-  <option value="0">Male</option>
-  <option value="1">Female</option>
-  <option value="2">Both</option>
-</select>
 
-        <h1 class="Title">Based on your Insurance</h1>
-        <h1>Here are the Best Pediatricians in Miami:</h1>
->>>>>>> b3a23f424a1358a604e4fe9671025a9c9819024d
+
         <div className="directory">
           <div className="Doctor" id="Doctors">
             {doctorCardList}
           </div>
-<<<<<<< HEAD
-          <img className="map" src={map} alt="map of miami"/>
-=======
 
->>>>>>> b3a23f424a1358a604e4fe9671025a9c9819024d
+          <img className="map" src={map} alt="map of miami"/>
+
         </div>
 
       </div>

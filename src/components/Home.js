@@ -5,12 +5,7 @@ import "../Images/GOODr_Logo.png";
 import DoctorList from "./DoctorList"
 import axios from "axios";
 
-<<<<<<< HEAD
-=======
 
-
-
->>>>>>> b3a23f424a1358a604e4fe9671025a9c9819024d
 export default class Home extends Component {
   constructor() {
     super();
@@ -35,10 +30,7 @@ export default class Home extends Component {
   }
 
 async componentDidMount(){
-//   let doctors = await this.fetchData();
-//   this.setState({doctors});
-// console.log(doctors);
-// <DoctorList doctors={this.state.doctors}/>;
+;
 }
 
   render() {

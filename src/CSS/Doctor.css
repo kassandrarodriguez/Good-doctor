@@ -34,18 +34,18 @@ li {
   font-size: .8em;
 }
 
-<<<<<<< HEAD
+
 .stars {
   height: 3em;
   width: 11em;
-=======
+}
 
 #main {
   width: 650px;
   float: right;
   margin-right: 30px;
   line-height: 20px;
->>>>>>> b3a23f424a1358a604e4fe9671025a9c9819024d
+
 }
 
 .headline > h1 {
