@@ -10,6 +10,7 @@ export class SimpleMap extends Component {
   render() {
     return (
 
+          <div style={{ height: '100vh', width: '50%' }}>
       <Map google={this.props.google} zoom={14} initialCenter={{lat: 25.7617 , lng: -80.1918}}>
 
         <Marker onClick={this.onMarkerClick}
@@ -21,6 +22,7 @@ export class SimpleMap extends Component {
             </div>
         </InfoWindow>
       </Map>
+    </div>
     );
   }
 }

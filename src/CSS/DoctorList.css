@@ -13,7 +13,6 @@
 .img {
   padding: 10em;
 }
-
 .map {
   width: 45%;
   height: 45%;
@@ -21,7 +20,7 @@
 }
 
 .dropDown {
-  margin-left: .5em;
+  margin-bottom: .5em;
   display: inline;
 }
 
@@ -31,4 +30,8 @@
   color: #2d75c6;
   font-family: 'Montserrat', sans-serif;
   margin-left: 4em;
+
+}
+.subtitle {
+  padding-bottom: .5em;
 }
