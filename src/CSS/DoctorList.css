@@ -1,10 +1,16 @@
-#Doctors {
+.directory {
 
   background-color: #30d3c3;
+  padding-top: 5em;
+  display: flex;
+  padding: 50px 25px;
 
 }
-
+.img {
+  padding: 10em;
+}
 listbox {
+
   width:10em;
   height: 10em;
 }

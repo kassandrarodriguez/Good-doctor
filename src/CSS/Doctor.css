@@ -6,10 +6,13 @@ body {
 }
 
 #container {
-  width: 960px;
+
   margin: auto;
-  background-color: #E1F1F2;
+  background: linear-gradient(#de7bad, #6cc5bd);
+  height:100em;
 }
+
+
 
 h1 {
   text-align: center;

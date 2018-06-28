@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../CSS/DoctorList.css';
 import DoctorCard from './DoctorCard';
 import { Dropdown } from "semantic-ui-react";
+import map from "../Images/map.jpg";
 
 
 class DoctorList extends Component {
@@ -26,21 +27,21 @@ class DoctorList extends Component {
     //   <a class="item">BOTH</a>
     // </div>
 
-
-    const options = [
-      { key: 'female', text: 'Female', value: 'female' },
-      { key: 'male', text: 'Male', value: 'male' },
-
-    ]
-
-    const DropdownExampleMultipleSelection = () => (
-      <Dropdown placeholder='Skills' fluid multiple selection options={options} />
-    )
-
-    function gender(){
-
-
-    }
+    //
+    // const options = [
+    //   { key: 'female', text: 'Female', value: 'female' },
+    //   { key: 'male', text: 'Male', value: 'male' },
+    //
+    // ]
+    //
+    // const DropdownExampleMultipleSelection = () => (
+    //   <Dropdown placeholder='Skills' fluid multiple selection options={options} />
+    // )
+    //
+    // function gender(){
+    //
+    //
+    // }
 
 //     function gender(doctorCardList, options){
 //
@@ -50,7 +51,7 @@ class DoctorList extends Component {
 //         picture={info.image_url} onClick={gender}/>
 //       }
 // }
-
+      // {DropdownExampleMultipleSelection()}
     // }
 
     let doctorCardList = this.props.doctors.map((element, index) =>{
@@ -58,14 +59,21 @@ class DoctorList extends Component {
 
 
       return <DoctorCard firstName={info.first_name} key={`id:${index}`} lastName={info.last_name} gender={info.gender} bio ={info.bio}
-        picture={info.image_url} onClick={gender}/>
+        picture={info.image_url} />
     });
     console.log(doctorCardList);
     return (
-      <div className="" id="Doctors">
-        {DropdownExampleMultipleSelection()}
+      <div>
+
+      <h1>Based on your Insurance, Here are the Best Pediatrician in Miami: </h1>
+      <div className="directory">
+    <div className="Doctor" id="Doctors">
           {doctorCardList}
       </div>
+
+          <img className="map" src={map} alt="map of miami"/>
+          </div>
+    </div>
     );
 
   }
