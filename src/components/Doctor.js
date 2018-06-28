@@ -15,6 +15,7 @@ export default class Doctor extends Component {
                   <p>Call to Resquest More Information</p>
                 </div>
               </div>
+<<<<<<< HEAD
           <div className="row">
               <img className="headshot" src={doctor}/>
                 <div className="text">
@@ -50,6 +51,18 @@ export default class Doctor extends Component {
                   /> */}
                 </div>
         </div>
+=======
+
+              <img className="headshot" src={doctor}/>
+                  <h3>Morrison, Sarah</h3>
+                  <ul>
+                    <li>Languages: English</li>
+                    <li>Specializes in the health of children from birth to young adulthood.</li>
+                    <li>Location of pracitce: Miami, Florida</li>
+                    <li>Status: Accepting new patients</li>
+                  </ul>
+
+>>>>>>> b3a23f424a1358a604e4fe9671025a9c9819024d
         </div>
       </div>
       )

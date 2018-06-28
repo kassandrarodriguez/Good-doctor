@@ -15,23 +15,27 @@
 }
 
 .hero-inner-text {
-    margin-top: 17em;
+    margin-top: 25em;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .hero-inner-text  h1 {
-    font-size: 4em;
+    font-size: 6em;
     color: #F7f7ff;
     font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px #ef3994;
+
 }
 
 .hero-inner-text  p {
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
-    color: #2d75c6;
+    color: #F7f7ff;
     font-family: 'Montserrat', sans-serif;
+    text-shadow: 3px 3px #070600;
+
 }
 
 .hero-inner .logo {

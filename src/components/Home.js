@@ -5,6 +5,12 @@ import "../Images/GOODr_Logo.png";
 import DoctorList from "./DoctorList"
 import axios from "axios";
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> b3a23f424a1358a604e4fe9671025a9c9819024d
 export default class Home extends Component {
   constructor() {
     super();
