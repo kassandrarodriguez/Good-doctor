@@ -44,6 +44,6 @@ async componentDidMount(){
         </section>
       )
     }
-// return(<HomeContent />)
+
   }
 }

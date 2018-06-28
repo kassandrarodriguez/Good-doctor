@@ -1,5 +1,4 @@
-
-{/*import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
+import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 import React, { Component } from "react";
 
 
@@ -13,7 +12,7 @@ export class SimpleMap extends Component {
 
         <InfoWindow onClose={this.onInfoWindowClose}>
             <div>
-              <h1>{this.state.selectedPlace.name}</h1>
+              <h1></h1>
             </div>
         </InfoWindow>
       </Map>
@@ -23,4 +22,4 @@ export class SimpleMap extends Component {
 
 export default GoogleApiWrapper({
   apiKey: "AIzaSyCNXDL-ug6d-uEGCHCUDrSAJRj6D-BdCWY"
-})(SimpleMap)*/}
+})(SimpleMap)

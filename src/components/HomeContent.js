@@ -15,7 +15,7 @@ export default class HomeContent extends Component {
             </p>
             <Search className="hero-inner-search" fetchData={this.props.fetchData} />
           </div>
-      
+
         </div>
       );
     }
