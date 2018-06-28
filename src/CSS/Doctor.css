@@ -34,9 +34,18 @@ li {
   font-size: .8em;
 }
 
+
 .stars {
   height: 3em;
   width: 11em;
+}
+
+#main {
+  width: 650px;
+  float: right;
+  margin-right: 30px;
+  line-height: 20px;
+
 }
 
 .headline > h1 {

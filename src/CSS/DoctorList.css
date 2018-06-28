@@ -22,10 +22,35 @@
   display: flex;
   padding: 50px 25px;
 }
+<<<<<<< HEAD
 
+=======
+.img {
+  padding: 10em;
+}
+>>>>>>> b7cf3ba154284652d4b0c60858ef2d61114197d6
 .map {
   width: 45%;
   height: 45%;
   margin-right: 2em;
 }
 
+<<<<<<< HEAD
+=======
+.dropDown {
+  margin-bottom: .5em;
+  display: inline;
+}
+
+.subtitle > p {
+  text-align: center;
+  display: inline;
+  color: #2d75c6;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 4em;
+
+}
+.subtitle {
+  padding-bottom: .5em;
+}
+>>>>>>> b7cf3ba154284652d4b0c60858ef2d61114197d6

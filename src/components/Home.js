@@ -6,8 +6,6 @@ import DoctorList from "./DoctorList"
 import axios from "axios";
 
 
-
-
 export default class Home extends Component {
   constructor() {
     super();
@@ -32,10 +30,7 @@ export default class Home extends Component {
   }
 
 async componentDidMount(){
-//   let doctors = await this.fetchData();
-//   this.setState({doctors});
-// console.log(doctors);
-// <DoctorList doctors={this.state.doctors}/>;
+;
 }
 
   render() {
@@ -49,6 +44,6 @@ async componentDidMount(){
         </section>
       )
     }
-// return(<HomeContent />)
+
   }
 }

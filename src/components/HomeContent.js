@@ -15,11 +15,7 @@ export default class HomeContent extends Component {
             </p>
             <Search className="hero-inner-search" fetchData={this.props.fetchData} />
           </div>
-          <img
-            className="logo"
-            src={require('../Images/GOODr_Logo.png')} 
-            alt="GOODr. Logo"
-          />
+
         </div>
       );
     }

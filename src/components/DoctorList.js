@@ -3,6 +3,8 @@ import '../CSS/DoctorList.css';
 import DoctorCard from './DoctorCard';
 import { Selection } from "semantic-ui-react";
 import map from "../Images/map.jpg";
+import SimpleMap from "./SimpleMap";
+
 
 class DoctorList extends Component {
 
@@ -37,17 +39,17 @@ constructor() {
 
     return (
       <div>
-       
+
         <div className="title">
-          <h1>Based on Your Insurance, <br /> Here are the Highest Rated Pediatricians in Miami. </h1>
+          <h1>Based on Your Insurance, <br /> Here are the Highest Rated Pediatricians in Miami: </h1>
         </div>
         <div className="subtitle">
-          <p> Select your gender preference. >> </p>
+          <p> Select your gender preference.>> </p>
             <div className="dropDown">
               <select className="ui dropdown" onChange={this.genderChange.bind(this)}>
-                <option value="0">Male</option>
+                <option value="2">No preference</option>
                 <option value="1">Female</option>
-                <option value="2">Both</option>
+                <option value="0">Male</option>
               </select>
             </div>
         </div>
@@ -55,7 +57,11 @@ constructor() {
           <div className="Doctor" id="Doctors">
             {doctorCardList}
           </div>
+
+          <SimpleMap />
+
         </div>
+
 
       </div>
     );
