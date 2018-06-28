@@ -3,8 +3,7 @@ import '../CSS/DoctorList.css';
 import DoctorCard from './DoctorCard';
 import { Selection } from "semantic-ui-react";
 import map from "../Images/map.jpg";
-import SimpleMap from "./SimpleMap";
-import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
+
 
 
 
@@ -61,7 +60,7 @@ if(info.gender==this.genders[this.state.gender] || this.state.gender==2){
           </div>
 
         </div>
-          <SimpleMap />
+
       </div>
 
 
