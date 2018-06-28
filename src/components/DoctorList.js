@@ -1,79 +1,64 @@
 import React, { Component } from 'react';
 import '../CSS/DoctorList.css';
 import DoctorCard from './DoctorCard';
-import { Dropdown } from "semantic-ui-react";
+import { Selection } from "semantic-ui-react";
 import map from "../Images/map.jpg";
 
 
 class DoctorList extends Component {
-// constructor(){
-//   super();
-//   this.state={
-//     list: false
-//   }
-//   this.toggleVisibility = this.toggleVisibility.bind(this);
-// }
-//
-//
-// toggleVisibility(){
-//   document.getElementById('Doctors').className = "hidden";
-// }
 
+ genderChange(event){
+  console.log(event.target.value);
+  this.setState({
+  gender:event.target.value
+})
+}
+
+constructor() {
+  super();
+  this.genders=["male", "female", "both"];
+  this.state = {
+  gender:2
+  };
+}
   render() {
 
-    // <div class="ui menu">
-    //   <a class="active item">FEMALE</a>
-    //   <a class="item">MALE</a>
-    //   <a class="item">BOTH</a>
-    // </div>
 
-    //
-    // const options = [
-    //   { key: 'female', text: 'Female', value: 'female' },
-    //   { key: 'male', text: 'Male', value: 'male' },
-    //
-    // ]
-    //
-    // const DropdownExampleMultipleSelection = () => (
-    //   <Dropdown placeholder='Skills' fluid multiple selection options={options} />
-    // )
-    //
-    // function gender(){
-    //
-    //
-    // }
-
-//     function gender(doctorCardList, options){
-//
-// for(let element of doctorCardList){
-//     if(options=='female' && info.gender=== 'female'){
-//       return <DoctorCard firstName={info.first_name} key={`id:${index}`} lastName={info.last_name} gender={info.gender} bio ={info.bio}
-//         picture={info.image_url} onClick={gender}/>
-//       }
-// }
-      // {DropdownExampleMultipleSelection()}
-    // }
 
     let doctorCardList = this.props.doctors.map((element, index) =>{
       let info = element.profile;
 
+if(info.gender==this.genders[this.state.gender] || this.state.gender==2){
+  return <DoctorCard firstName={info.first_name} key={`id:${index}`} lastName={info.last_name} gender={info.gender} bio ={info.bio}
+    picture={info.image_url} />
+} else{
+  return null;
+}
 
-      return <DoctorCard firstName={info.first_name} key={`id:${index}`} lastName={info.last_name} gender={info.gender} bio ={info.bio}
-        picture={info.image_url} />
     });
     console.log(doctorCardList);
     return (
-      <div>
 
-      <h1>Based on your Insurance, Here are the Best Pediatrician in Miami: </h1>
-      <div className="directory">
-    <div className="Doctor" id="Doctors">
-          {doctorCardList}
-      </div>
+
+      <div>
+        <select className="ui dropdown" onChange={this.genderChange.bind(this)}>
+  <option value="0">Male</option>
+  <option value="1">Female</option>
+  <option value="2">Both</option>
+</select>
+
+        <h1>Based on your Insurance, Here are the Best Pediatrician in Miami: </h1>
+        <div className="directory">
+          <div className="Doctor" id="Doctors">
+            {doctorCardList}
+          </div>
 
           <img className="map" src={map} alt="map of miami"/>
-          </div>
-    </div>
+        </div>
+      </div>
+
+
+
     );
 
   }
