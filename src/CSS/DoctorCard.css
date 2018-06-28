@@ -1,24 +1,21 @@
 
 .ui.cards {
-padding-right: 45em;
-padding-left: 45em;
+
 margin-bottom: 2em;
+
 }
 
 
 .container {
 
   display: flex;
-  margin-left: 20%;
   margin-bottom: 1%;
-  width: 60%;
   height: 18em;
   border: none;
 }
 
-  
+
 .stars {
   height: 1em;
   width: 5em;
 }
-

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import '../CSS/Doctor.css';
+import doctor from '../Images/doctor.jpg'
 
 
 
@@ -9,7 +10,7 @@ export default class Doctor extends Component {
 
         <div id='container'>
             <aside>
-            <img class="ui fluid image" src="../Images/KEN DOCTOR BIO FOTO%232.jpg"/>
+            <img class="ui fluid image" src={doctor}/>
                 <h3>the doctor</h3>
                 <ul>
                   <li>lorem</li>
@@ -30,9 +31,7 @@ export default class Doctor extends Component {
                 </p>
             </section>
 
-            <footer>
 
-            </footer>
 
         </div>
 
