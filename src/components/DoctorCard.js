@@ -11,7 +11,7 @@ const DoctorCard = (props) => (
 <div className="container">
   <a class="ui fluid card" href="./Doctor">
     <div class="content">
-        <div class="header">{props.lastName}, {props.firstName}</div>
+        <div class="name">{props.lastName}, {props.firstName}</div>
         <div class="rating">
         <img className="stars" src={require('../Images/starRating.png')} alt="five star rating"/>
         </div>

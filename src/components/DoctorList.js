@@ -20,13 +20,6 @@ class DoctorList extends Component {
 // }
 
   render() {
-
-    // <div class="ui menu">
-    //   <a class="active item">FEMALE</a>
-    //   <a class="item">MALE</a>
-    //   <a class="item">BOTH</a>
-    // </div>
-
     //
     // const options = [
     //   { key: 'female', text: 'Female', value: 'female' },
@@ -65,9 +58,9 @@ class DoctorList extends Component {
     return (
       <div>
         <div className="title">
-          <h1>Based on Your Insurance, Here are the Highest Rated Pediatricians in Miami: </h1>
+          <h1>Based on Your Insurance, <br /> Here are the Highest Rated Pediatricians in Miami: </h1>
         </div>
-        
+
       <div className="directory">
         <div className="Doctor" id="Doctors">
           {doctorCardList}

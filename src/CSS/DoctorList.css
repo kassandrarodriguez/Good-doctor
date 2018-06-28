@@ -1,21 +1,18 @@
-.title {
-  padding: 2em;
+.title > h1 {
+  padding: 1em;
+  color: #2d75c6;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center
 }
 
 .directory {
-  background-color: #30d3c3;
+  background: linear-gradient(#6cc5bd, #de7bad);
   display: flex;
   padding: 50px 25px;
 }
 .img {
   padding: 10em;
 }
-
-/* listbox {
-
-  width:10em;
-  height: 10em;
-} */
 
 .map {
   width: 45%;

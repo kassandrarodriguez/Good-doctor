@@ -1,27 +1,36 @@
 
-
-body {
-  background-color: #10889E;
-  font-family: Verdana;
-}
-
 #container {
-
-  margin: auto;
   background: linear-gradient(#de7bad, #6cc5bd);
-  height:100em;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
 }
 
+.headshot {
+  width: 25em;
+  margin: 5em;
+}
 
+.docHeader {
+  /* margin: 1em; */
+  background-color: white;
+  width: 100vw;
+  margin: 0em;
+  padding: 2em;
+  color: #2d75c6;
+  text-align: center
+}
 
-h1 {
+.headline > h1 {
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 1em;
+}
+
+.docSubhead > p  {
+  color: #2d75c6;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
-  font-size: 3em;
-  color: #445566;
-  font-family: Georgia, Times, Serif;
-  font-weight: normal;
-  margin: 0;
-  padding: 20px;
+  font-size: 1.25em;
 }
 
 h2 {
@@ -34,37 +43,35 @@ h3 {
   margin: 0px;
 }
 
-nav {
-  background-color: #45bcd2;
+/* nav {
   height: 30px;
   margin-bottom: 20px;
   text-align: center;
-}
+} */
 
-nav ul {
+/* nav ul {
   list-style: none;
   margin: 0;
   padding-top: 5px;
-}
+} */
 
-nav li {
+/* nav li {
   display: inline;
   margin-left: 10px;
   margin-right: 10px;
-}
+} */
 
-nav li a {
+/* nav li a {
   color: white;
-}
-
+} */
+/* 
 aside {
   width: 200px;
   height: 350px;
-  border: 1px solid #10889E;
   float: left;
   margin-left: 30px;
   padding: 5px;
-}
+} */
 
 #main {
   width: 650px;
