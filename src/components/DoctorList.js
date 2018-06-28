@@ -3,6 +3,8 @@ import '../CSS/DoctorList.css';
 import DoctorCard from './DoctorCard';
 import { Selection } from "semantic-ui-react";
 import map from "../Images/map.jpg";
+import SimpleMap from "./SimpleMap.js"
+
 
 
 class DoctorList extends Component {
@@ -48,15 +50,14 @@ if(info.gender==this.genders[this.state.gender] || this.state.gender==2){
   <option value="2">Both</option>
 </select>
 
-        <h1>Based on your Insurance, Here are the Best Pediatrician in Miami: </h1>
+        <h1>Based on your Insurance</h1>
+        <h1>Here are the Best Pediatricians in Miami:</h1>
         <div className="directory">
           <div className="Doctor" id="Doctors">
             {doctorCardList}
           </div>
+          <SimpleMap />
 
-
-
-          <img className="map" src={map} alt="map of miami"/>
         </div>
       </div>
 
