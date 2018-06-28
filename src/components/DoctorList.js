@@ -41,6 +41,7 @@ if(info.gender==this.genders[this.state.gender] || this.state.gender==2){
 
 
       <div>
+
         <select className="ui dropdown" onChange={this.genderChange.bind(this)}>
   <option value="0">Male</option>
   <option value="1">Female</option>
@@ -52,6 +53,8 @@ if(info.gender==this.genders[this.state.gender] || this.state.gender==2){
           <div className="Doctor" id="Doctors">
             {doctorCardList}
           </div>
+
+
 
           <img className="map" src={map} alt="map of miami"/>
         </div>
