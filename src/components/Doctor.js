@@ -14,22 +14,16 @@ export default class Doctor extends Component {
                   <p>Call to Resquest More Information</p>
                 </div>
               </div>
-            
+
               <img className="headshot" src={doctor}/>
-                  <h3>Last Name, First Name</h3>
+                  <h3>Morrison, Sarah</h3>
                   <ul>
-                    <li>lorem</li>
-                    <li>lorem</li>
-                    <li>lorem</li>
-                    <li>lorem</li>
+                    <li>Languages: English</li>
+                    <li>Specializes in the health of children from birth to young adulthood.</li>
+                    <li>Location of pracitce: Miami, Florida</li>
+                    <li>Status: Accepting new patients</li>
                   </ul>
-              
-              <section id='main'>
-                  <h2>lorem</h2>
-                  <p>
-                lorem
-                  </p>
-              </section>
+
         </div>
       );
     }
