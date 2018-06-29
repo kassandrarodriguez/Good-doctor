@@ -59,10 +59,9 @@ constructor() {
           </div>
 
           <SimpleMap />
+          {/* <div ref="map" style={style}/> */}
 
         </div>
-
-
       </div>
     );
   }

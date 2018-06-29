@@ -12,8 +12,8 @@ const DoctorCard = (props) => (
     <div class="content">
         <div class="name">{props.lastName}, {props.firstName}</div>
         
-        <div class="rating">
-          <img className="stars" src={require('../Images/starRating.png')} alt="five star rating"/>
+        <div class="rating2">
+          <img className="stars2" src={require('../Images/starRating.png')} alt="five star rating"/>
         </div>
 
         <div class="meta">
