@@ -4,6 +4,7 @@ import '../CSS/HomeContent.css';
 import "../Images/GOODr_Logo.png";
 import DoctorList from "./DoctorList"
 import axios from "axios";
+import KEY from '../config2'
 
 
 export default class Home extends Component {
@@ -18,7 +19,7 @@ export default class Home extends Component {
   }
 
   async fetchData() {
-    const api_key = "32693030a396d661b1acb7b1699c8760";
+    const api_key = KEY;
     const url =
       "https://api.betterdoctor.com/2016-03-01/doctors?specialty_uid=pediatrician&location=25.761681%2C%20-80.191788%2C100&user_location=25.761681%2C%20-80.191788&skip=0&limit=15&user_key=" +
       api_key;
@@ -29,9 +30,6 @@ export default class Home extends Component {
     })
   }
 
-async componentDidMount(){
-;
-}
 
   render() {
 

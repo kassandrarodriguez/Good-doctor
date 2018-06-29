@@ -1,6 +1,6 @@
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 import React, { Component } from "react";
-import API_KEY from './config'
+import API_KEY from '../config'
 
 
 

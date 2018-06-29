@@ -21,7 +21,7 @@ export default class Doctor extends Component {
               <div class="rating">
                 <img className="stars" src={require('../Images/starRating.png')} alt="five star rating"/>
               </div>
-              <h3>Dr. Gladys  Morrison, Sarah  &emsp;   (305) 789-4243</h3>
+              <h3>Dr. Gladys  Morrison, Sarah  &emsp; (305) 789-4243</h3>
               <h4> Care Resources <br />
               3510 Biscayne Blvd., Miami, FL 33137 </h4>
             <h4>  26 Years in Practice  </h4>

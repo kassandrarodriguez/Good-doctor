@@ -25,6 +25,8 @@ constructor() {
   render() {
 
     let doctorCardList = this.props.doctors.map((element, index) =>{
+      console.log(element);
+
       let info = element.profile;
 
       if(info.gender==this.genders[this.state.gender] || this.state.gender==2){
