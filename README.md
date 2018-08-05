@@ -25,6 +25,8 @@ GOODr. is a REACT APP that utilizes BetterDoc API to pre-filter the data for "Pe
 ## API KEY NEEDED
 This program requires an API key from BetterDoctor, which you can get by going to https://developer.betterdoctor.com/ and signing up for free. Once you have your key, just put it in the .env file as mentioned in the instructions.
 
+You also need a GOOGLE Maps key
+
 ## HOW TO RUN THE PROGRAM
 To run the program, one could write "yarn start" inside the directory.
 
