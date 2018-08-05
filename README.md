@@ -27,3 +27,6 @@ This program requires an API key from BetterDoctor, which you can get by going t
 
 ## HOW TO RUN THE PROGRAM
 To run the program, one could write "yarn start" inside the directory.
+
+## SCREENSHOTS OF PROGRAM
+![home-page](https://user-images.githubusercontent.com/38043621/43686992-5decac76-989c-11e8-9545-07d1807fe487.png)
