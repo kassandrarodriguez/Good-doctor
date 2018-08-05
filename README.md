@@ -37,3 +37,5 @@ HOME PAGE
 LIST OF DOCTORS PAGE
 
 ![search](https://user-images.githubusercontent.com/38043621/43687013-9c2aee3a-989c-11e8-8de5-41f6493c530f.png)
+
+DOCTOR PAGE
