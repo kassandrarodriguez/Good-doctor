@@ -31,14 +31,14 @@ To run the program, one could write "yarn start" inside the directory.
 ## SCREENSHOTS OF PROGRAM
 
 
-### HOME PAGE
+### Home Page
 
 ![home-page](https://user-images.githubusercontent.com/38043621/43686992-5decac76-989c-11e8-9545-07d1807fe487.png)
 
-LIST OF DOCTORS PAGE
+### List of Doctors Page
 
 ![search](https://user-images.githubusercontent.com/38043621/43687013-9c2aee3a-989c-11e8-8de5-41f6493c530f.png)
 
-DOCTOR PAGE
+### Doctor Page
 
 ![doctor-page](https://user-images.githubusercontent.com/38043621/43687068-54d5853a-989d-11e8-8a54-42d5df3a562e.png)
